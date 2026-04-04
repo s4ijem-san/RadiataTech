@@ -15,3 +15,22 @@ mensaje.textContent = "Gracias por contratar nuestros servicios " + nombre + ". 
 formulario.reset();
 
 });
+
+const formFSC = document.getElementById("formFSC");
+
+formFSC.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    const nombre = document.getElementById("nombreFSC").value;
+    const mensaje = document.getElementById("mensajeFSC");
+
+    mensaje.textContent = 
+    `Gracias ${nombre}, te contactaremos explicandote en que consiste el servicio de trazabilidad mensual o para ver si estas interesado en la certificación FSC`;
+
+    formFSC.reset();
+}
+
+
+
+)
