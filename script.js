@@ -29,8 +29,18 @@ formFSC.addEventListener("submit", function (e) {
     `Gracias ${nombre}, te contactaremos explicandote en que consiste el servicio de trazabilidad mensual o para ver si estas interesado en la certificación FSC`;
 
     formFSC.reset();
-}
+});
 
+const formDrone =document.getElementById("formDrone");
 
+formDrone.addEventListener("submit", function(e){
+    e.preventDefault();
 
-)
+    const nombre = document.getElementById("nombreDrone").value;
+
+    const mensaje = document.getElementById("mensajeDrone");
+
+    mensaje.textContent = `Gracias ${nombre}, hemos recibido tu solicitud para que te realicemos un vuelo de drone. Nos contactaremos contigo en la brevedad posible para coordinar todo.`
+
+    formDrone.reset();
+});
