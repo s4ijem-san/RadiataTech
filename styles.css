@@ -52,3 +52,30 @@ button{
     color: black;
     cursor: pointer;
 }
+
+.bloque {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+
+    margin:50px 0;
+    padding: 20px;
+
+}
+
+.contenido {
+    flex: 1;
+}
+
+.imagen {
+    flex: 1;
+    
+}
+
+.imagen img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
