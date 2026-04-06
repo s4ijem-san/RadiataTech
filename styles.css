@@ -1,12 +1,13 @@
+/* Estilo Generales */ 
 body {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     background: yellowgreen;
     color: white;
 }
-
+/* Header ... */
 .header {
-    backgroud: lightgreen;
+    background: lightgreen;
     text-align: center;
     padding: 20px;
 }
@@ -18,12 +19,13 @@ body {
     font-style: italic;
 }
 
+/*Logo principal en el header */
 .logo img {
     width:120px;
     border: 2px solid white;
     border-radius: 8px;
     }
-
+/* Navegación */
 nav {
     display: flex;
     justify-content: center;
@@ -32,7 +34,7 @@ nav {
     padding: 15px;
 
 }
-
+/* Enlaces del menú */
 nav a {
     margin: auto;
     text-decoration: none;
@@ -43,12 +45,12 @@ nav a {
 }
 
 
-
+/* sección hero */
 .hero {
     text-align: center;
     padding: 20px;
 }
-
+/* secciones base */
 section {
     padding: 40px;
     margin: 20px;   
@@ -56,12 +58,13 @@ section {
     border-radius: 10px;
 }
 
+/* formularios */
 form {
     display:flex;
     flex-direction: column;
     max-width:360px;
 }
-
+/* Inputs y botones */
 input, button {
     margin: 5px 0 ;
     padding: 10px;
@@ -69,24 +72,22 @@ input, button {
     border: none;
 
 }
-
+/* botón principal */
 button{
     background:lightgreen;
     color: black;
     cursor: pointer;
 }
-
+/* Bloques (layout flex) */
 .bloque {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap:40px;
-
     margin:50px 0;
     padding: 20px;
-
 }
-
+/* Contenido (texto/formulario) */
 .contenido {
     flex: 1;
 }
@@ -95,26 +96,30 @@ button{
     flex: 1;
     
 }
-
+/* imagen adaptable */
 .imagen img {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
-
+/* Footer */
 .footer{
     background: black;
     padding: 30px 40px;
 }
+/*texto del footer*/
 .footer-texto {
     max-width: 70%;
 }
+/* contenedor del logo*/
 .footer-logo {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: nowrap;
 } 
+
+/*logo del footer */
 .footer-logo img {
     width:100px;
     height: auto;
